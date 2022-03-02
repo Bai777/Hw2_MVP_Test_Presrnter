@@ -1,6 +1,5 @@
 package com.example.hw1mvp
 
-import com.example.hw1mvp.model.CountersModel
 import com.example.hw1mvp.presenter.MainPresenter
 import org.junit.Assert
 import org.junit.Test
@@ -12,8 +11,6 @@ class MainPresenterTest {
     private val buttonClickIdThree = 2
 
     private val presenter : MainPresenter = mock(MainPresenter::class.java)
-
-//    private val model: CountersModel = mock(CountersModel::class.java)
 
     @Test
     fun buttonClickIdOneTest(){
